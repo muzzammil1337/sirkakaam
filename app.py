@@ -27,7 +27,7 @@ def format_tracking_info(tracking_info):
     if not tracking_info:
         return "No tracking updates found."
 
-    output = "\n📦 Shipment Tracking History:\n\n"
+    output = "\nShipment Tracking History:\n\n"
     for update in tracking_info:
         date = update.get("date", "")
         time = update.get("time", "")
